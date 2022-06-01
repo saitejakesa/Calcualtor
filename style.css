@@ -1,0 +1,121 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: column;
+    flex-direction: column;
+    width: 1000px;
+    height: 600px;
+    border-style: solid;
+    border-width: medium;
+    
+}
+.inputOutput{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    flex-direction: column;
+}
+.input{
+    height:90%;
+    width: 100%;
+}
+.output{
+    display: flex;
+    height: 10%;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.result{
+    height: 100%;
+    width: 100% ;
+    align-content: flex-end;
+    border: 1px solid white;
+}
+
+
+#resul{
+    width: 100%;
+}
+
+.keypad{
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    
+}
+.completenumber{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.column{
+    display: flex;
+    width: 100%;
+    height: 20%;
+
+}
+.tworow{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.threerow{
+    width: 33.33%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.type1{
+    width: 100%;
+    height: 100%;
+    align-content: center;
+}
+.completeoperations{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.primaryoperations{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.secondaryoperations{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column
+}
+#addition{
+    width: 100%;
+    height: 70%;
+    display: flex;  
+}
+#equals{
+    width: 100%;
+    height: 30%;
+    display: flex;  
+}
+.operations2{
+    width: 100%;
+    height: 25%;
+    display: flex;
+}
+.buttonoperation{
+    width: 100%;
+    height: 90%;
+}
+.type2{
+    width: 100%;
+    height: 90%;
+}
