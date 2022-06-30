@@ -15,81 +15,83 @@
     <div class="container">
         <div class="inputOutput">
             <div class="input" id="input" value=""></div>
-            <div class="output"><input class="result" id="result"></div>
+            <div class="output">
+                <input class="result" id="result">
+            </div>
         </div>
         <div class="keypad">
             <div class="completenumber">
                 <div class="column">
                     <div class="tworow">
-                        <button type="button" class="button buttonoperation" id="clear" name="number" placeholder="AC">C</button>
+                        <button type="button" class="button buttonoperation" id="clear" name="number">C</button>
                     </div>
                     <div class="tworow">
                         <button type="button" class="button buttonoperation"  id="cancelstep" name="number">&larr;</button>
                     </div>
                 </div>
                 <div class="column">
-                    <div class="threerow" id="1">
-                        <button type="button" class="button type1"  id="1" name="number" value="1" placeholder="1">1</button>
+                    <div class="threerow" id="number1">
+                        <button type="button" class="button type1"  id="1" name="number" value="1">1</button>
                     </div>
-                    <div class="threerow" id="2">
-                        <button type="button" class="button type1" id="2" name="number" value="2" placeholder="2">2</button>
+                    <div class="threerow" id="number2">
+                        <button type="button" class="button type1" id="2" name="number" value="2">2</button>
                     </div>
-                    <div class="threerow" id="3">
-                        <button type="button" class="button type1" id="3" name="number" value="3" placeholder="3">3</button>
-                    </div>
-                </div>
-                <div class="column">
-                    <div class="threerow" id="4">
-                        <button type="button" class="button type1" id="4" name="number" value="4" placeholder="4">4</button>
-                    </div>
-                    <div class="threerow" id="5">
-                        <button type="button" class="button type1" id="5" name="number" value="5" placeholder="5">5</button>
-                    </div>
-                    <div class="threerow" id="6">
-                        <button type="button" class="button type1" id="6" name="number" value="6" placeholder="6">6</button>
+                    <div class="threerow" id="number3">
+                        <button type="button" class="button type1" id="3" name="number" value="3">3</button>
                     </div>
                 </div>
                 <div class="column">
-                    <div class="threerow" id="7">
-                        <button type="button" class="button type1" id="7" name="number" value="7" placeholder="7">7</button>
+                    <div class="threerow" id="number4">
+                        <button type="button" class="button type1" id="4" name="number" value="4">4</button>
                     </div>
-                    <div class="threerow" id="8">
-                        <button type="button" class="button type1" id="8" name="number" value="8" placeholder="8">8</button>
+                    <div class="threerow" id="number5">
+                        <button type="button" class="button type1" id="5" name="number" value="5">5</button>
                     </div>
-                    <div class="threerow" id="9">
-                        <button type="button" class="button type1" id="9" name="number" value="9" placeholder="9">9</button>
+                    <div class="threerow" id="number6">
+                        <button type="button" class="button type1" id="6" name="number" value="6">6</button>
                     </div>
                 </div>
                 <div class="column">
-                    <div class="tworow" id="0">
-                        <button type="button" class="button type1"  id="0" name="number" value="0" placeholder="0">0</button>
+                    <div class="threerow" id="number7">
+                        <button type="button" class="button type1" id="7" name="number" value="7">7</button>
                     </div>
-                    <div class="tworow" id="00">
-                        <button type="button" class="button type1"  id="00" name="number" placeholder="00">00</button>
+                    <div class="threerow" id="number8">
+                        <button type="button" class="button type1" id="8" name="number" value="8">8</button>
+                    </div>
+                    <div class="threerow" id="number9">
+                        <button type="button" class="button type1" id="9" name="number" value="9">9</button>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="tworow" id="number0">
+                        <button type="button" class="button type1"  id="0" name="number" value="0">0</button>
+                    </div>
+                    <div class="tworow" id="number00">
+                        <button type="button" class="button type1"  id="00" name="number" >00</button>
                     </div>
                 </div>
             </div>
                 <div class="completeoperations">
                     <div class="primaryoperations">
                         <div class="operations" id="addition">
-                            <button type="button" class="button type2" id="add" name="addition" value="+" placeholder="+">+</button>
+                            <button type="button" class="button type2" id="add" name="addition" value="+">+</button>
                         </div>
                         <div class="operations" id="equals">
-                            <button type="button" class="button type2" id="equal" name="isequal" value="=" placeholder="=">=</button>
+                            <button type="button" class="button type2" id="equal" name="isequal" value="=">=</button>
                         </div>
                     </div>
                     <div class="secondaryoperations">
                         <div class="operations2" id="subtraction">
-                            <button type="button" class="button type2" id="subtract" name="subtraction" value="-" placeholder="-">-</button>
+                            <button type="button" class="button type2" id="subtract" name="subtraction" value="-">-</button>
                         </div>
                         <div class="operations2" id="multiply">
-                            <button type="button" class="button type2" id="multiplication" name="multiplication" value="*" placeholder="*">*</button> 
+                            <button type="button" class="button type2" id="multiplication" name="multiplication" value="*">*</button> 
                         </div>
                         <div class="operations2" id="Divide">
-                            <button type="button" class="button type2" id="Division" name="Division" value="/" placeholder="/">/</button> 
+                            <button type="button" class="button type2" id="Division" name="Division" value="/">/</button> 
                         </div>
                         <div class="operations2" id="Modulus">
-                            <button type="button" class="button type2" id="Reminder" name="Reminder" value="%" placeholder="%">%</button>
+                            <button type="button" class="button type2" id="Reminder" name="Reminder" value="%">%</button>
                         </div>
                     </div>
             </div>

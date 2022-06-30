@@ -7,7 +7,7 @@ totalvalue.map(button => {
     button.addEventListener('click',(e) => {
         switch(e.target.innerText){
             case 'C':
-                result.innerText='';
+                result.value='';
                 input.innerText='';
                 break;
             case '←':
@@ -16,14 +16,16 @@ totalvalue.map(button => {
                 }
                 break;
             case '=':
-                result.innerText+=eval(input.innerText);    
+                    result.value=eval(input.innerText)
+                    input.innerText=''
+                break;    
             default:
                 input.innerText+=e.target.innerText;
+                result.value='';
         }
 
 
     });
 
 });
-
 
